@@ -1,0 +1,17 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	new file:   Roboto-Black.ttf
+#	new file:   Roboto-Regular.ttf
+#	new file:   courses.html
+#	new file:   employment.html
+#	modified:   index.html
+#	new file:   project.html
+#	new file:   skills.html
+#	modified:   styles.css
+#
+
