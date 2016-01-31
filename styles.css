@@ -1,0 +1,90 @@
+@font-face{ font-family: Roboto-Thin; src: url('Roboto-Thin.ttf');}
+.title{
+	font-weight: normal;
+	font-size: 75px;
+	display: inline;
+}
+#me{
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+}
+#base{
+	font-family: Roboto-Thin, Arial, Helvetica, sans-serif;
+	background-color: white;
+	width: 90%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+#banner{
+	margin-top: 50px;
+}
+
+#menu_bar{
+	background-color: #878787;
+	display: block;
+	*margin: 8px 22px 8px 22px;
+	height: 35px;
+	overflow: hidden;
+
+}
+
+	#menu_bar ul{
+		margin: 0;
+		padding: 0;
+	}
+
+		.menuitem{
+			display: inline-block;
+			list-style-type: none;
+			line-height: 35px;
+			text-decoration: none;
+			padding: 0 20px;
+			
+			-webkit-transition: all 0.2s;
+			-moz-transition: all 0.2s;
+			-ms-transition: all 0.2s;
+			-o-transition: all 0.2s;
+			transition: all 0.2s;
+		}
+		
+		.menuitem:hover{
+			background-color: black;
+		}
+
+			.menuitem a{
+				color: white;
+				text-decoration: none;
+			}
+			
+#bookmarkbox{
+	position: fixed;
+	background-color: #878787;
+	margin-top: 20px;
+	width: 150px;
+}
+
+	.bookmark{
+		padding: 5px;
+		-webkit-transition: all 0.2s;
+		-moz-transition: all 0.2s;
+		-ms-transition: all 0.2s;
+		-o-transition: all 0.2s;
+		transition: all 0.2s;
+	}
+		.bookmark:hover{
+			background-color: black;
+		}
+		.bookmark a{
+			color: white;
+			text-decoration: none;
+		}
+
+#content{
+	background-color:#878787;
+	margin-left: 160px;
+	margin-top: 20px;
+
+
+}
