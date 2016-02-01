@@ -6,6 +6,13 @@
 	font-size: 75px;
 	display: inline;
 }
+
+h2{
+	font-family: Roboto-Regular, Arial, Helvetica, sans-serif;
+	style: bold;
+	margin-left: 5px;
+
+}
 #me{
 	height: 150px;
 	width: 150px;
@@ -93,6 +100,7 @@
 	font-family: Roboto-Regular, Arial, Helvetica, sans-serif;
 }
 	#content p{
-		padding: 5px;
+		margin-left: 5px;
+		margin-right: 5px;
 		color: black;
 	}
