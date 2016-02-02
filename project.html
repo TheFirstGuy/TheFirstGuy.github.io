@@ -19,6 +19,7 @@
 		</ul>
 	</div>
 	<div id="bookmarkbox">
+		<div class="bookmark"><a href=#intro>Introduction</a></div>
 		<div class="bookmark"><a href=#neural>Neural Network</a></div>
 		<div class="bookmark"><a href=#processor>8-bit Processor</a></div>
 		<div class="bookmark"><a href=#pacman>PAC MAN</a></div>
@@ -29,7 +30,44 @@
 		<div class="bookmark"><a href=#ppm>Polytechnic Playing Machine</a></div>
 	</div>
 	<div id="content">
-	
+		<a name=intro><h2>Introduction</h2></a>
+		<p>
+			Here you will find descriptions of projects that I have completed or am 
+			currently working on. Projects are listed in reverse chronological order. 
+			I plan to push most of the code for these projects on to my GitHub in the future. 
+			Please contact me with any questions or comments on any of these projects.
+		</p>
+		<a name=neural><h2>FPGA Based Neural Network</h2></a>
+		<p>
+			For my senior project I am leading a team to design an artificial neural network 
+			on a field programmable gate array (FPGA). More specifically, we intend to create 
+			a multi-layer perceptron (MLP) architecture that is capable of solving a variety 
+			of classification problems efficiently, while also being easily scalable. If time 
+			permits we would ideally would prefer to create an open source library to allow 
+			others to build upon our work.
+		</p>
+		<p>
+			Currently, we plan to implement out design on a Nexys 4 DDR board that is powered by 
+			a Xilinx Artix-7 chip. Although not the most powerful FPGA available, we have chosen 
+			it due to our familiarity with the board, its low cost, and integrated sensors. The 
+			design of the MLP will be done on the register transfer level using VHDL. Although 
+			we were trained to use the Xilinx ISE 14.7 software, we are considering moving over 
+			to the newer Xilinx Vivado. However, this will be dependent on how long we believe it 
+			would take to reorient ourselves.
+		</p>
+		<p>
+			Neural networks on FPGAs present several challenges. Some of these challenges include, 
+			but are not limited to: 
+			<ul>
+				<li>Managing the connections of synapse between neurons (activators)</li>
+				<li>Implementing multiplication in an efficient manner</li>
+				<li>Implementing the sigmoid function used in back propagation in an efficient manner</li>
+				<li>Pipelining forward activation and back propagation simultaneously</li>
+				<li>Exploiting neural network inherent parallelism</li>
+			</ul>
+			These challenges, along with many others will be tackled over the next few months. 
+			I look forward to posting updates as we overcome these challenges. 
+		</p>
 	</div>
 </div>
 </body>
